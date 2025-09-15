@@ -31,30 +31,34 @@ img {
 div {
     min-height: 125px;
     padding: 20px;
-    border: 3px solid #FFFFFF;
 }
 
 .introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
+    border: 3px solid #FFFFFF;
 }
 
 .red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
+    border: none;
     border-bottom: 2px solid #FFFFFF;
     border-left: 5px solid #FFFFFF;
 }
+
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
+    border: none;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
 }
+
 
 .blue h2,
 .blue p {
@@ -65,18 +69,23 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
+    border: none;
     border-bottom: 2px solid #FFFFFF;
     border-left: 5px solid #FFFFFF;
 }
+
 
 .yellow h2,
 .yellow p {
     color: #707070;
 }
 
+
 .green {
-    background-color: #00EB00;
+    background-color: #00eb00;
+    text-align: left;
     margin-right: 50px;
+    border: none;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
 }
